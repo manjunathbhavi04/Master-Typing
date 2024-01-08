@@ -1,0 +1,30 @@
+.para{
+    color: white;
+    font-weight: 700;
+}
+
+.highlight {
+    color: red;
+}
+
+.colored{
+    color: red;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 1px;
+    animation: blink-animation 1s infinite;
+  }
+
+  @keyframes blink-animation {
+    0% {
+      opacity: 1; /* Visible */
+    }
+    50% {
+      opacity: 0; /* Invisible */
+    }
+    100% {
+      opacity: 1; /* Visible */
+    }
+  }
